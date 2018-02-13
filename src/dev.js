@@ -27,7 +27,7 @@ class App extends React.Component{
     return (
       <div className="hello-react-ant-switch">
         <ReactAntSwitch value={this.state.value} onChange={this._onChange} ref='rc' />
-    </div>
+      </div>
     );
   }
 }
