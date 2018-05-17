@@ -20,7 +20,7 @@ class App extends React.Component{
 
   _onChange =e =>{
     console.log(e);
-    this.setState({ value: e})
+    this.setState({ value: e.target.value})
   };
 
   render(){

@@ -29,7 +29,7 @@ export default class extends Component{
   render(){
     const { className, value, onChange, ...props } = this.props;
     return (
-      <Switch checked={value} { ...props } className={classNames('react-ant-switch',className)} />
+      <Switch checked={value} { ...props } onChange={this._onChange} className={classNames('react-ant-switch',className)} />
     );
   }
 }
