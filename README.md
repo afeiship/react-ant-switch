@@ -8,10 +8,12 @@
   static propTypes = {
     className: PropTypes.string,
     value: PropTypes.bool,
+    onChange: PropTypes.func,
   };
 
   static defaultProps = {
-    value: false
+    value: false,
+    onChange: noop
   };
   
 ```
@@ -36,14 +38,14 @@ class App extends React.Component{
 
   _onChange =e =>{
     console.log(e);
-    this.setState({ value: e})
+    this.setState({ value: e.target.value})
   };
 
   render(){
     return (
       <div className="hello-react-ant-switch">
         <ReactAntSwitch value={this.state.value} onChange={this._onChange} ref='rc' />
-    </div>
+      </div>
     );
   }
 }
