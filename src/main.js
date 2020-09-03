@@ -1,2 +1,2 @@
-import ReactAntSwitch from 'components/react-ant-switch';
+import ReactAntSwitch from './components';
 export default ReactAntSwitch;

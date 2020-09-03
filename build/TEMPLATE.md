@@ -17,13 +17,7 @@ npm update @feizheng/react-ant-switch
 ```
 
 ## properties
-| Name         | Type   | Required | Default | Description                           |
-| ------------ | ------ | -------- | ------- | ------------------------------------- |
-| className    | string | false    | -       | The extended className for component. |
-| value        | bool   | false    | -       | The runtime value.                    |
-| defaultValue | bool   | false    | -       | Default value.                        |
-| onChange     | func   | false    | noop    | The change handler.                   |
-
+__GENERATE_DOCS__
 
 ## usage
 1. import css
@@ -35,28 +29,7 @@ npm update @feizheng/react-ant-switch
   ```
 2. import js
   ```js
-  import React from 'react';
-  import ReactDOM from 'react-dom';
-  import ReactAntSwitch from '@feizheng/react-ant-switch';
-  import './assets/style.scss';
-
-  class App extends React.Component {
-    componentDidMount() {}
-    render() {
-      return (
-        <div className="app-container">
-          <ReactAntSwitch
-            onChange={(e) => {
-              console.log('value:', e.target.value);
-            }}
-          />
-        </div>
-      );
-    }
-  }
-
-  ReactDOM.render(<App />, document.getElementById('app'));
-
+__GENERATE_DAPP__
   ```
 
 ## documentation
