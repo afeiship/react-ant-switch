@@ -8,12 +8,7 @@
 
 ## installation
 ```shell
-npm install -S @feizheng/react-ant-switch
-```
-
-## update
-```shell
-npm update @feizheng/react-ant-switch
+npm install -S @jswork/react-ant-switch
 ```
 
 ## properties
@@ -22,7 +17,10 @@ __GENERATE_DOCS__
 ## usage
 1. import css
   ```scss
-  @import "~@feizheng/react-ant-switch/dist/style.scss";
+  @import "~@jswork/react-ant-switch/dist/style.css";
+
+  // or use sass
+  @import "~@jswork/react-ant-switch/dist/style.scss";
 
   // customize your styles:
   $react-ant-switch-options: ()
@@ -39,14 +37,14 @@ __GENERATE_DAPP__
 ## license
 Code released under [the MIT license](https://github.com/afeiship/react-ant-switch/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/react-ant-switch
-[version-url]: https://npmjs.org/package/@feizheng/react-ant-switch
+[version-image]: https://img.shields.io/npm/v/@jswork/react-ant-switch
+[version-url]: https://npmjs.org/package/@jswork/react-ant-switch
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/react-ant-switch
+[license-image]: https://img.shields.io/npm/l/@jswork/react-ant-switch
 [license-url]: https://github.com/afeiship/react-ant-switch/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/react-ant-switch
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/react-ant-switch
 [size-url]: https://github.com/afeiship/react-ant-switch/blob/master/dist/react-ant-switch.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/react-ant-switch
-[download-url]: https://www.npmjs.com/package/@feizheng/react-ant-switch
+[download-image]: https://img.shields.io/npm/dm/@jswork/react-ant-switch
+[download-url]: https://www.npmjs.com/package/@jswork/react-ant-switch

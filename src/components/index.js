@@ -1,4 +1,4 @@
-import noop from '@feizheng/noop';
+import noop from '@jswork/noop';
 import { Switch } from 'antd';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
@@ -51,3 +51,4 @@ export default class ReactAntSwitch extends Component {
     );
   }
 }
+
