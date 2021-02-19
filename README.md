@@ -12,11 +12,12 @@ npm install -S @jswork/react-ant-switch
 ```
 
 ## properties
-| Name      | Type   | Required | Default | Description                           |
-| --------- | ------ | -------- | ------- | ------------------------------------- |
-| className | string | false    | -       | The extended className for component. |
-| value     | object | false    | null    | The changed value.                    |
-| onChange  | func   | false    | noop    | The change handler.                   |
+| Name         | Type   | Required | Default | Description                           |
+| ------------ | ------ | -------- | ------- | ------------------------------------- |
+| className    | string | false    | -       | The extended className for component. |
+| value        | bool   | false    | -       | The runtime value.                    |
+| defaultValue | bool   | false    | -       | Default value.                        |
+| onChange     | func   | false    | noop    | The change handler.                   |
 
 
 ## usage
@@ -44,8 +45,11 @@ npm install -S @jswork/react-ant-switch
         <ReactDemokit
           className="p-3 app-container"
           url="https://github.com/afeiship/react-ant-switch">
-          <ReactAntSwitch className="mb-5 has-text-white" />
-          <button className="button is-primary is-fullwidth">Start~</button>
+          <ReactAntSwitch
+            onChange={(e) => {
+              console.log('value:', e.target.value);
+            }}
+          />
         </ReactDemokit>
       );
     }
